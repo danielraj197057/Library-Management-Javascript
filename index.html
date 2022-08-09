@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <script src="https://kit.fontawesome.com/28a9d8948a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" class="style">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.7/dist/sweetalert2.all.min.js"></script>
+
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="topbarwrapper">
+            <div class="leftside">
+                <h2 class="hd">Library Management System</h2>
+            </div>
+            <div class="rightside">
+                <div class="items">
+                    <h3 onclick="change()">Login</h3>
+                </div>
+                <div class="items">
+                    <h3>Sign up</h3>
+                </div>
+                <div class="items">
+                    <h3>Your Books</h3>
+                </div>
+                <div class="items">
+                    <img src="https://st.depositphotos.com/1741875/1237/i/600/depositphotos_12376816-stock-photo-stack-of-old-books.jpg" alt="Profile" class="profile" id="profile"
+                        onclick="pic()">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg">
+        <div class="wrapper">
+            <div class="sidebar">
+                <h3>Home</h3>
+                <h3>About</h3>
+                <h3>Books</h3>
+                <h3>Types</h3>
+                <h3>New Arrival!!</h3>
+                <h3>Classics</h3>
+                <h3>Comic Book</h3>
+                <h3>Graphic Novel</h3>
+                <h3>Fantasy</h3>
+            </div>
+        </div>
+
+        <iframe src="Login.html" class="login deactive" id="login" frameborder="0"></iframe>
+
+        <div class="home" id="home">
+
+            <!-- Library Main -->
+
+            <section class="course" id="course">
+            
+
+                <button onclick="add()" style="height: 10%; width:15%; align:center; color:white; background-color:black; cursor:pointer; margin-top:25%;">Add Books</button>
+            </section>
+
+
+        </div>
+    </div>
+   <script src="library.js"></script>
+</body>
+
+</html>
